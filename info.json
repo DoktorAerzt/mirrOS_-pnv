@@ -1,0 +1,17 @@
+{
+  "module": {
+    "name": "OEPNV",
+    "version": "1.0.0",
+    "description": "Zeigt die abfahrtszeiten einer Haltesteller der OEPNV an",
+    "module_url": "notnow",
+    "download_url": "notnow",
+    "category": "mobilitaet",
+    "last_update": ""
+  },
+  "creator": {
+    "name": "Michael",
+    "contact": "michael@dragem.de",
+    "website": "http://dragem.de",
+    "profile": "notnow"
+  }
+}
