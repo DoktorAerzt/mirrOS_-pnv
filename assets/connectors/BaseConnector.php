@@ -1,16 +1,20 @@
 <?php
 class BaseConnector
 {
-	private string $url = "";
-	private string $haltestelle = "";
-	private array $content; //First entry is the Time, Second is the name of the Line, Third is the Line number, Last on is the Direction
+	private $url = "";
+	private $haltestelle = "";
+	private $content = array(); //First entry is the Time left to arrive, Second is the name of the Line, Third is the Line number, Last on is the Direction
 	public function getFahrplan($URL, $Haltestelle)
 	{
 		$this->url = $URL;
 		$this->haltestelle = $Haltestelle;
 	}
-	public funtion toString()
+	public function toString()
 	{
 		return $content;
+	}
+	private function getURL()
+	{
+		return $this->url;
 	}
 }
